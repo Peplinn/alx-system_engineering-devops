@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -A1 | sed 's/^\.|^\..$//g;s/\./\//g;sort -n | tr "\n" ","'
+
