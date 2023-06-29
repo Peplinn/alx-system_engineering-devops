@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(( ($(printf "%d" "'$WATER" | tr -d \\n)-96) + ($(printf "%d" "'$STIR" | tr -d \\n)-96) ))
